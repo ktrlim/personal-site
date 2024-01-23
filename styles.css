@@ -1,0 +1,85 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+    max-width: 620px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+a {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.divLogo {
+    padding: auto;
+    min-height: 100px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.logo {
+    height: 10em;
+    padding: 1%;
+    margin: auto; 
+}
+
+.splitDivL {
+    width: 50%;
+    float: left;
+}
+
+.splitDivR {
+    width: 48%;
+    float: left;
+    padding-left: 2%;
+}
+
+.splitDivLabel {
+    padding-left: 5%;
+    font-size: 1.25em;
+    color: #9486BB;
+    font-weight: bold;
+}
+
+.nameTitle {
+    width: 100%; text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.mainSection {
+    width: 100%;
+    padding-bottom: 3%;
+    overflow: auto;
+}
+
+.resume {
+    color: #9486BB;
+    font-family: 'Courier New', Courier, monospace; font-size: 1.2em;
+    font-weight: bold;
+}
